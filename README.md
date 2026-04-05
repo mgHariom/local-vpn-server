@@ -2,6 +2,8 @@
 
 An end-to-end automation toolkit for deploying a secure OpenVPN environment on Linux. This project replaces manual configuration with a modular, script-based infrastructure, allowing for "one-click" deployment of a private VPN tunnel.
 
+> [!NOTE]
+> The keys used in the /vpn_configs directory is only for example purposes. The key is not valid as the server is not running
 ---
 
 ## 🚀 Project Overview
@@ -40,3 +42,4 @@ Ensure you are running a Linux distribution (Tested on Parrot OS/Debian) and hav
 git clone [https://github.com/yourusername/local-vpn-server.git](https://github.com/yourusername/local-vpn-server.git)
 cd local-vpn-server
 chmod +x *.sh
+
